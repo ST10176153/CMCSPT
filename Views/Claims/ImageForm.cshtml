@@ -1,0 +1,39 @@
+﻿@*
+    This is the interface prototype for the Contract Monthly Claim System (CMCS).
+    The form allows lecturers to submit a claim with an option to upload supporting documents.
+*@
+<div class="container mt-4">
+    <h2>Contract Monthly Claim System - Claim Form</h2>
+    <form>
+        <div class="form-group">
+            <label for="lecturerName">Lecturer Name</label>
+            <input type="text" class="form-control" id="lecturerName" placeholder="Enter Lecturer Name" />
+        </div>
+        <div class="form-group">
+        <label for="lecturerSurname">Lecturer Surname</label>
+        <input type="text" class="form-control" id="lecturerSurname" placeholder="Enter Lecturer Surname" />
+</div>
+        <div class="form-group">
+            <label for="claimTitle">Claim Title</label>
+            <input type="text" class="form-control" id="claimTitle" placeholder="Enter claim title" />
+        </div>
+        <div class="form-group">
+            <label for="moduleName">Module Name</label>
+            <input type="text" class="form-control" id="moduleName" placeholder="Enter module name" />
+        </div>
+        <div class="form-group">
+        <label for="employeeNumber">Employee Number</label>
+        <input type="text" class="form-control" id="employeeNumber" placeholder="Enter Employee Number" />
+</div>
+        <div class="form-group">
+            <label for="claimAmount">Claim Amount</label>
+            <input type="number" class="form-control" id="claimAmount" placeholder="Enter claim amount" />
+        </div>
+        <div class="form-group">
+            <label for="supportingDocs">Upload Supporting Documents</label>
+            <input type="file" class="form-control-file" id="supportingDocs" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Claim</button>
+        <button type="submit" class="btn btn-primary">Add Another Module Claim</button>
+    </form>
+</div>
